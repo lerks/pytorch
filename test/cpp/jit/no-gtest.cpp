@@ -32,6 +32,7 @@ std::string runJITCPPTests() {
   testTopologicalMove();
   testSubgraphUtils();
   testAliasAnalysis();
+  testAliasTracker();
   return out.str();
 }
 
